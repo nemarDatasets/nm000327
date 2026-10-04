@@ -1,0 +1,39 @@
+{
+    "Name": "Leeuwis2021",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Nikki Leeuwis",
+        "Alissa Paas",
+        "Maryam Alimardani"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.34894/Z7ZVOD"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "BCI",
+        "brain-computer interface",
+        "EEG",
+        "cognition",
+        "personality"
+    ],
+    "DatasetDOI": "doi:10.34894/Z7ZVOD",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.34894/Z7ZVOD",
+            "URL": "https://doi.org/10.34894/Z7ZVOD"
+        }
+    ],
+    "PublicationYear": 2021
+}

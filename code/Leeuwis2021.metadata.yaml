@@ -1,0 +1,101 @@
+_dataset:
+  class: Leeuwis2021
+  code: Leeuwis2021
+  doi: 10.34894/Z7ZVOD
+  interval:
+  - 0
+  - 4.996
+  n_subjects: 55
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 16
+  ground: AFz
+  hardware: g.Nautilus (g.tec Medical Engineering, Austria)
+  line_freq: 50.0
+  montage: standard_1020
+  reference: right earlobe
+  sampling_rate: 250.0
+  sensors:
+  - F3
+  - Fz
+  - F4
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - T7
+  - C3
+  - C4
+  - Cz
+  - T8
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  software: g.BSanalyze (g.tec)
+documentation:
+  country: NL
+  data_url: https://doi.org/10.34894/Z7ZVOD
+  description: Single-session left/right-hand motor-imagery EEG from 55 novice BCI users (16 channels, 250 Hz, g.Nautilus),
+    collected to study psychological and cognitive factors in motor-imagery BCI performance.
+  doi: 10.34894/Z7ZVOD
+  institution: Tilburg University, Tilburg School of Humanities and Digital Sciences
+  investigators:
+  - Nikki Leeuwis
+  - Alissa Paas
+  - Maryam Alimardani
+  keywords:
+  - motor imagery
+  - BCI
+  - brain-computer interface
+  - EEG
+  - cognition
+  - personality
+  license: CC-BY-4.0
+  publication_year: 2021
+  related_paper_dois:
+  - 10.3389/fnhum.2021.634748
+  repository: DataverseNL
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: visual
+  has_training_test_split: true
+  instructions: Imagine moving the left or right hand following the cue.
+  mode: online
+  n_classes: 2
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue
+  study_design: Single-session, two-class left- versus right-hand motor imagery in 55 novice BCI users. One calibration run
+    (no feedback) plus three feedback runs of 40 trials each (20 left, 20 right). Study examined psychological and cognitive
+    predictors of MI-BCI performance.
+  synchronicity: cue-based
+  trial_duration: 5.0
+  trials_per_class:
+    left_hand: 80
+    right_hand: 80
+file_format: CSV
+participants:
+  age_mean: 20.71
+  age_std: 3.52
+  bci_experience: naive
+  handedness: right
+  health_status: healthy
+  n_subjects: 55
+  species: homo sapiens
+runs_per_session: 4
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  pathology:
+  - healthy
+  type:
+  - Motor Imagery
