@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Leeuwis2021: Left- vs right-hand motor-imagery EEG dataset",
+  "description": "Single-session EEG recordings from 55 healthy, BCI-naive participants performing two-class left- versus right-hand motor imagery. Data were acquired with a 16-channel g.Nautilus system at 250 Hz, with one calibration run and three feedback runs. The dataset was collected to study psychological and cognitive predictors of motor-imagery BCI performance, and is re-released in BIDS format via MOABB.",
+  "methods_description": "Participants performed cue-based left or right hand motor imagery with visual cues. One calibration run without feedback was followed by three feedback runs of 40 trials each (20 per class). EEG was recorded from 16 channels (F3, Fz, F4, FC5, FC1, FC2, FC6, T7, C3, C4, Cz, T8, CP5, CP1, CP2, CP6) at 250 Hz with a g.Nautilus amplifier, referenced to the right earlobe with ground at AFz.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Nikki Leeuwis": {},
     "Alissa Paas": {},
@@ -13,6 +18,31 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "personality"
+    },
+    {
+      "term": "Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.34894/Z7ZVOD",
@@ -40,14 +70,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Leeuwis2021",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "540 MB (221 files)"
   ],
@@ -55,36 +82,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "Single-session EEG dataset of left- versus right-hand motor imagery recorded from 55 novice BCI users with a 16-channel g.Nautilus system at 250 Hz. Each participant completed one calibration run without feedback and three feedback runs. The data were collected to study how psychological and cognitive factors, including personality and visual imagery vividness, predict motor-imagery BCI performance.",
-  "methods_description": "16-channel EEG (10-20 montage) recorded at 250 Hz with a g.Nautilus amplifier, referenced to the right earlobe with AFz as ground. Each session had four runs: one calibration run without feedback and three feedback runs of 40 trials each (20 left, 20 right). Trials were cue-based with visual cues and visual feedback, and lasted about 5 s.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "Cognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    },
-    {
-      "term": "Personality",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010551"
-    }
-  ],
-  "source_hash": "d65fdfc61cd36ba90b26df849172bdda19c17c0c3c098a74dcc0be873e790318"
+  "source_hash": "537cc71297d20f395d958b83f229027c40b9ba0fab18f7342be2c45757e9f4d8"
 }
