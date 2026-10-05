@@ -114,3 +114,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Reviewed and approved by the Research Ethics Committee of Tilburg School of Humanities and Digital Sciences. All participants provided written informed consent to participate in the study (Leeuwis, Paas & Alimardani 2021, Front. Hum. Neurosci. 15:634748, DOI 10.3389/fnhum.2021.634748).
+
+Verbatim from the source:
+
+> This study was reviewed and approved by the Research Ethics Committee of Tilburg School of Humanities and Digital Sciences. The patients/participants provided their written informed consent to participate in this study.
+
+Source: cached paper .paper-audit/Leeuwis2021/paper-10_3389_fnhum_2021_634748.txt (Leeuwis, Paas & Alimardani 2021, Front. Hum. Neurosci. 15:634748, DOI 10.3389/fnhum.2021.634748).
