@@ -1,5 +1,5 @@
 {
-    "Name": "Leeuwis2021",
+    "Name": "Leeuwis2021: Left- vs right-hand motor-imagery EEG dataset",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -35,5 +35,8 @@
             "URL": "https://doi.org/10.34894/Z7ZVOD"
         }
     ],
-    "PublicationYear": 2021
+    "PublicationYear": 2021,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
