@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Leeuwis2021: Left- vs right-hand motor-imagery EEG dataset",
-  "description": "Single-session EEG recordings of left- versus right-hand motor imagery from 55 healthy, BCI-naive participants, collected to study psychological and cognitive predictors of motor-imagery brain-computer interface performance. Data were recorded with 16 channels at 250 Hz and include one calibration run without feedback plus three feedback runs. This BIDS version was generated from the DataverseNL source deposit via MOABB.",
-  "methods_description": "EEG was recorded with a g.Nautilus 16-channel system (g.tec) at 250 Hz, referenced to the right earlobe with ground at AFz. Each participant completed one calibration run without feedback and three feedback runs of 40 trials each (20 left, 20 right), cued visually. Participants imagined moving the left or right hand.",
+  "description": "A single-session EEG dataset of left- versus right-hand motor imagery recorded from 55 healthy, BCI-naive participants using a 16-channel g.Nautilus system at 250 Hz. Each participant completed one calibration run without feedback and three feedback runs, for 160 trials in total. The data were collected to examine psychological and cognitive predictors of motor-imagery brain-computer interface performance. This BIDS release was converted from the original DataverseNL deposit via MOABB.",
+  "methods_description": "Sixteen EEG channels (F3, Fz, F4, FC5, FC1, FC2, FC6, T7, C3, C4, Cz, T8, CP5, CP1, CP2, CP6) were recorded at 250 Hz with a g.Nautilus amplifier. The reference was the right earlobe and the ground was AFz. Participants imagined left- or right-hand movement following visual cues, with 5 s trials. The session had one calibration run without feedback and three feedback runs of 40 trials each, with 20 trials per class per run.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,26 +20,28 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interface"
+      "term": "EEG"
     },
     {
-      "term": "BCI"
+      "term": "personality"
     },
     {
       "term": "Cognition",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    },
-    {
-      "term": "Personality",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010551"
     }
   ],
   "related_identifiers": [
@@ -80,14 +82,15 @@
     "eeg"
   ],
   "sizes": [
-    "540 MB (221 files)"
+    "5.30 GB (442 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "7a567102e2ba0227667d75fd3e32f61ace9ab22c90125cdf61384b8d0af529e5"
+  "source_hash": "ba15a8d9ad5dc2fb5b5d0d11c8674df99b630f3779aa27c8c71e89684d8725de"
 }
